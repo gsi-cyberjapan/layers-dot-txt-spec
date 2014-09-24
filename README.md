@@ -32,6 +32,7 @@ layers-dot-json-spec
     "url": "http://cyberjapandata-t{s}.gsi.go.jp/xyz/ort/{z}/{x}/{y}.jpg",
     "subdomains": "123"
   }
+  ]
 }
 ]}
 ```
