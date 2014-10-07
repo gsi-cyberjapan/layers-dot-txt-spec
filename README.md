@@ -1,13 +1,13 @@
-layers-dot-json-spec
+layers-dot-txt-spec
 ====================
-# ウェブ地図レイヤ定義 layers.json 規約
+# ウェブ地図レイヤ定義 layers.txt 規約
 ※この規約は検討中のものであり、今後変更する可能性がある。
 ## 適用範囲
 本文書は、画像タイルやGeoJSONタイル等で提供されるウェブ地図のレイヤ定義を共有するJSONファイルのフォーマットを定義する。
 
 ## サンプル
 
-```json
+```javascript
 {"layers": [
 {
   "type": "Layer",
@@ -77,3 +77,9 @@ typeをLayerGroupとしたEntry。下位のレイヤを取りまとめたレイ�
 
 ## 参考文献
 1. Leaflet リファレンス http://leafletjs.com/reference.html
+
+## 変更履歴
+|日付      |内容      |
+|:---------|:---------|
+|2014-10-07|ウェブサーバ及びオペレーティングシステムにおける拡張子の登録状況を考慮し、拡張子をjsonからtxtに変更。|
+
