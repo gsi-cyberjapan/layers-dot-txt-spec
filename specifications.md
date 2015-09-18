@@ -21,7 +21,7 @@
 {
   "type": "LayerGroup",
   "title": "写真",
-  "src": “http://cyberjapandata.gsi.go.jp/layers_txt/layers_divided.txt”,
+  "src": "http://cyberjapandata.gsi.go.jp/layers_txt/layers_divided.txt",
 }
 ]}
 ```
