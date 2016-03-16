@@ -10,6 +10,6 @@
 |[layers_experimental.txt](https://github.com/gsi-cyberjapan/gsimaps/blob/gh-pages/layers_txt/layers_experimental.txt)|ベクトルタイル提供実験|
 |[layers_invisible.txt](https://github.com/gsi-cyberjapan/gsimaps/blob/gh-pages/layers_txt/layers_invisible.txt)|見えないタイル（標高タイル等）|
 
-（2016.3.14　layers.txtの分類を更新）
+（2016.3.14　layers.txtの分類を変更）
 
 See also: [gsimaps](https://github.com/gsi-cyberjapan/gsimaps/tree/gh-pages/layers_txt)
