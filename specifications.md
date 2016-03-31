@@ -60,6 +60,7 @@
 |attribution|<a href='http://leafletjs.com/reference.html#tilelayer'>L.TileLayer</a>と同じ|<a href='http://leafletjs.com/reference.html#tilelayer'>L.TileLayer</a>と同じ|<a href='http://leafletjs.com/reference.html#tilelayer'>L.TileLayer</a>と同じ|
 |iconUrl|URL|レイヤを表現するアイコンのURL|""|
 |legendUrl|URL|凡例のURL|""|
+|errorTileUrl|<a href='http://leafletjs.com/reference.html#tilelayer'>L.TileLayer</a>と同じ|<a href='http://leafletjs.com/reference.html#tilelayer'>L.TileLayer</a>と同じ|<a href='http://leafletjs.com/reference.html#tilelayer'>L.TileLayer</a>と同じ|
 |html|文字列|レイヤに関する説明をHTMLで記述。|""|
 |cocotile|true/false|<a href='https://github.com/gsi-cyberjapan/cocotile-spec'>ココタイル</a>を使って表示範囲に絞込みを有効にするかどうか。|true|
 
