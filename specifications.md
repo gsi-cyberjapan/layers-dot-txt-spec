@@ -63,6 +63,8 @@
 |errorTileUrl|<a href='http://leafletjs.com/reference.html#tilelayer'>L.TileLayer</a>と同じ|<a href='http://leafletjs.com/reference.html#tilelayer'>L.TileLayer</a>と同じ|<a href='http://leafletjs.com/reference.html#tilelayer'>L.TileLayer</a>と同じ|
 |html|文字列|レイヤに関する説明をHTMLで記述。|""|
 |cocotile|true/false|<a href='https://github.com/gsi-cyberjapan/cocotile-spec'>ココタイル</a>を使って表示範囲に絞込みを有効にするかどうか。|true|
+|bounds|<a href='http://leafletjs.com/reference.html#tilelayer'>L.TileLayer</a>と同じ|<a href='http://leafletjs.com/reference.html#tilelayer'>L.TileLayer</a>と同じ|<a href='http://leafletjs.com/reference.html#tilelayer'>L.TileLayer</a>と同じ|
+|styleurl|URL|ベクトルタイルのstyle.jsを指定する場合に記述。|""|
 
 
 ### LayerGroup
@@ -78,6 +80,7 @@
 |toggleall|true/false|下位レイヤ群を「全表示」「全非表示」するボタンを表示するかどうか。|false|
 |entries|Layer 及び LayerGroupの配列|下位にあるLayer 及び LayerGroup群|[]<br>（entries属性かsrc属性のいずれかが必須）|
 |src|URL|entriesの配列の内容が存在するlayers.txtのURL|""<br>（entries属性かsrc属性のいずれかが必須）|
+|id|文字列|LayerGroupを一つのレイヤとして扱う場合に記述|""|
 
 
 ## 参考文献
