@@ -40,6 +40,7 @@
 ]}
 ```
 
+
 ## 規定
 1. layers という名前のプロパティにレイヤ定義の配列を格納した JSON ファイル（拡張子はtxt）によりレイヤ定義を表現する。
 2. レイヤ定義は、Layer 又は LayerGroup による。
@@ -53,19 +54,18 @@
 |id|文字列|表示状態の再現に使用。<a href='https://github.com/gsi-cyberjapan/cocotile-spec'>ココタイル</a>に収録。|""|
 |title|文字列|レイヤの名前。レイヤツリーのテキストとして使用。|（必須）|
 |url|URL|タイルデータのテンプレートURL|（必須）|
-|subdomains|<a href='http://leafletjs.com/reference.html#tilelayer'>L.TileLayer</a>と同じ|<a href='http://leafletjs.com/reference.html#tilelayer'>L.TileLayer</a>と同じ|<a href='http://leafletjs.com/reference.html#tilelayer'>L.TileLayer</a>と同じ|
-|maxZoom|<a href='http://leafletjs.com/reference.html#tilelayer'>L.TileLayer</a>と同じ|<a href='http://leafletjs.com/reference.html#tilelayer'>L.TileLayer</a>と同じ|<a href='http://leafletjs.com/reference.html#tilelayer'>L.TileLayer</a>と同じ|
-|minZoom|<a href='http://leafletjs.com/reference.html#tilelayer'>L.TileLayer</a>と同じ|<a href='http://leafletjs.com/reference.html#tilelayer'>L.TileLayer</a>と同じ|<a href='http://leafletjs.com/reference.html#tilelayer'>L.TileLayer</a>と同じ|
-|maxNativeZoom|<a href='http://leafletjs.com/reference.html#tilelayer'>L.TileLayer</a>と同じ|<a href='http://leafletjs.com/reference.html#tilelayer'>L.TileLayer</a>と同じ|<a href='http://leafletjs.com/reference.html#tilelayer'>L.TileLayer</a>と同じ|
-|attribution|<a href='http://leafletjs.com/reference.html#tilelayer'>L.TileLayer</a>と同じ|<a href='http://leafletjs.com/reference.html#tilelayer'>L.TileLayer</a>と同じ|<a href='http://leafletjs.com/reference.html#tilelayer'>L.TileLayer</a>と同じ|
+|subdomains|<a href='http://leafletjs.com/reference-0.7.7.html#tilelayer'>L.TileLayer</a>と同じ|<a href='http://leafletjs.com/reference-0.7.7.html#tilelayer'>L.TileLayer</a>と同じ|<a href='http://leafletjs.com/reference-0.7.7.html#tilelayer'>L.TileLayer</a>と同じ|
+|attribution|<a href='http://leafletjs.com/reference-0.7.7.html#tilelayer'>L.TileLayer</a>と同じ|<a href='http://leafletjs.com/reference-0.7.7.html#tilelayer'>L.TileLayer</a>と同じ|<a href='http://leafletjs.com/reference-0.7.7.html#tilelayer'>L.TileLayer</a>と同じ|
+|cocotile|true/false|<a href='https://github.com/gsi-cyberjapan/cocotile-spec'>ココタイル</a>を使って表示範囲に絞込みを有効にするかどうか。|true|
+|minZoom|<a href='http://leafletjs.com/reference-0.7.7.html#tilelayer'>L.TileLayer</a>と同じ|<a href='http://leafletjs.com/reference-0.7.7.html#tilelayer'>L.TileLayer</a>と同じ|<a href='http://leafletjs.com/reference-0.7.7.html#tilelayer'>L.TileLayer</a>と同じ|
+|maxZoom|<a href='http://leafletjs.com/reference-0.7.7.html#tilelayer'>L.TileLayer</a>と同じ|<a href='http://leafletjs.com/reference-0.7.7.html#tilelayer'>L.TileLayer</a>と同じ|<a href='http://leafletjs.com/reference-0.7.7.html#tilelayer'>L.TileLayer</a>と同じ|
+|maxNativeZoom|<a href='http://leafletjs.com/reference-0.7.7.html#tilelayer'>L.TileLayer</a>と同じ|<a href='http://leafletjs.com/reference-0.7.7.html#tilelayer'>L.TileLayer</a>と同じ|<a href='http://leafletjs.com/reference-0.7.7.html#tilelayer'>L.TileLayer</a>と同じ|
 |iconUrl|URL|レイヤを表現するアイコンのURL|""|
 |legendUrl|URL|凡例のURL|""|
-|errorTileUrl|<a href='http://leafletjs.com/reference.html#tilelayer'>L.TileLayer</a>と同じ|<a href='http://leafletjs.com/reference.html#tilelayer'>L.TileLayer</a>と同じ|<a href='http://leafletjs.com/reference.html#tilelayer'>L.TileLayer</a>と同じ|
-|html|文字列|レイヤに関する説明をHTMLで記述。|""|
-|cocotile|true/false|<a href='https://github.com/gsi-cyberjapan/cocotile-spec'>ココタイル</a>を使って表示範囲に絞込みを有効にするかどうか。|true|
-|bounds|<a href='http://leafletjs.com/reference.html#tilelayer'>L.TileLayer</a>と同じ|<a href='http://leafletjs.com/reference.html#tilelayer'>L.TileLayer</a>と同じ|<a href='http://leafletjs.com/reference.html#tilelayer'>L.TileLayer</a>と同じ|
 |styleurl|URL|ベクトルタイルのstyle.jsを指定する場合に記述。|""|
-
+|errorTileUrl|<a href='http://leafletjs.com/reference-0.7.7.html#tilelayer'>L.TileLayer</a>と同じ|<a href='http://leafletjs.com/reference-0.7.7.html#tilelayer'>L.TileLayer</a>と同じ|<a href='http://leafletjs.com/reference-0.7.7.html#tilelayer'>L.TileLayer</a>と同じ|
+|bounds|<a href='http://leafletjs.com/reference-0.7.7.html#tilelayer'>L.TileLayer</a>と同じ|<a href='http://leafletjs.com/reference-0.7.7.html#tilelayer'>L.TileLayer</a>と同じ|<a href='http://leafletjs.com/reference-0.7.7.html#tilelayer'>L.TileLayer</a>と同じ|
+|html|文字列|レイヤに関する説明をHTMLで記述。|""|
 
 ### LayerGroup
 下位のレイヤを取りまとめたレイヤグループを構成するプロパティの集合。
@@ -73,17 +73,15 @@
 |属性名|属性値|意味|デフォルト|
 |:----|:----|:--|:-------|
 |type|LayerGroup|LayerGroupであることを示す。|（必須）|
+|id|文字列|LayerGroupを一つのレイヤとして扱う場合に記述|""|
 |title|文字列|レイヤグループの名前。レイヤツリーのテキストとして使用。|（必須）|
-|iconUrl|URL|レイヤグループを表現するアイコンのURL|""|
-|legendUrl|URL|凡例等のURL|""|
-|html|文字列|レイヤグループに関する説明をHTMLで記述。|""|
 |toggleall|true/false|下位レイヤ群を「全表示」「全非表示」するボタンを表示するかどうか。|false|
 |entries|Layer 及び LayerGroupの配列|下位にあるLayer 及び LayerGroup群|[]<br>（entries属性かsrc属性のいずれかが必須）|
 |src|URL|entriesの配列の内容が存在するlayers.txtのURL|""<br>（entries属性かsrc属性のいずれかが必須）|
-|id|文字列|LayerGroupを一つのレイヤとして扱う場合に記述|""|
+|iconUrl|URL|レイヤグループを表現するアイコンのURL|""|
+|legendUrl|URL|凡例等のURL|""|
+|html|文字列|レイヤグループに関する説明をHTMLで記述。|""|
 
 
 ## 参考文献
-1. Leaflet リファレンス http://leafletjs.com/reference.html
-
-
+1. Leaflet リファレンス http://leafletjs.com/reference-0.7.7.html
