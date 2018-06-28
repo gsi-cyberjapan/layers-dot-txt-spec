@@ -9,7 +9,7 @@
 |[layers3.txt](https://github.com/gsi-cyberjapan/gsimaps/blob/gh-pages/layers_txt/layers3.txt)|基準点・測地観測|
 |[layers4.txt](https://github.com/gsi-cyberjapan/gsimaps/blob/gh-pages/layers_txt/layers4.txt)|地震、台風・豪雨等、火山|
 |[layers_skhb.txt](https://github.com/gsi-cyberjapan/gsimaps/blob/gh-pages/layers_txt/layers_skhb.txt)|指定緊急避難場所|
-|[layers_chirikyoiku.txt](https://github.com/gsi-cyberjapan/gsimaps/blob/gh-pages/layers_txt/layers_chirikyoiku.txt)|地理教育のお道具箱|
+|[layers_chirikyoiku.txt](https://github.com/gsi-cyberjapan/gsimaps/blob/gh-pages/layers_txt/layers_chirikyoiku.txt)|地理教育の道具箱|
 |[layers5.txt](https://github.com/gsi-cyberjapan/gsimaps/blob/gh-pages/layers_txt/layers5.txt)|他機関の情報|
 |[layers_experimental.txt](https://github.com/gsi-cyberjapan/gsimaps/blob/gh-pages/layers_txt/layers_experimental.txt)|ベクトルタイル提供実験|
 |[layers_invisible.txt](https://github.com/gsi-cyberjapan/gsimaps/blob/gh-pages/layers_txt/layers_invisible.txt)|見えないタイル（標高タイル等）|
