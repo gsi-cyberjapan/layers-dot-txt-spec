@@ -5,6 +5,8 @@
 
 （※）ウェブサーバ及びオペレーティングシステムにおける拡張子の登録状況を考慮し、拡張子をtxtとしている。
 
+なお、地理院地図のソースプログラムにおける「[/layers_txt/layers.txt](https://github.com/gsi-cyberjapan/gsimaps/blob/gh-pages/layers_txt/layers.txt)」は、本仕様で定めるlayers.txtには含めない。
+
 ## サンプル
 ### layers.txt
 ```javascript
@@ -42,8 +44,10 @@
 
 
 ## 規定
-1. layers という名前のプロパティにレイヤ定義の配列を格納した JSON ファイル（拡張子はtxt）によりレイヤ定義を表現する。
-2. レイヤ定義は、Layer 又は LayerGroup による。
+1. layers という名前のプロパティにレイヤ定義の配列を格納した JSON ファイルによりレイヤ定義を表現する。
+2. ファイルの拡張子は.txtとし、文字コードはUTF-8（BOMなし）とする。
+3. レイヤ定義は、Layer 又は LayerGroup による。
+
 
 ### Layer
 レイヤを表現するプロパティの集合。
