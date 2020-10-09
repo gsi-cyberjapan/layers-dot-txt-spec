@@ -48,44 +48,46 @@
 2. ファイルの拡張子は.txtとし、文字コードはUTF-8（BOMなし）とする。
 3. レイヤ定義は、Layer 又は LayerGroup による。
 
-
 ### Layer
 レイヤを表現するプロパティの集合。
 
-|属性名|属性値|意味|デフォルト|
-|:----|:----|:--|:-------|
-|type|Layer|Layerであることを示す。|（必須）|
-|id|文字列|表示状態の再現に使用。<a href='https://github.com/gsi-cyberjapan/cocotile-spec'>ココタイル</a>に収録。|（必須）|
-|title|文字列|レイヤの名前。レイヤツリーのテキストとして使用。|（必須）|
-|url|URL|タイルデータのテンプレートURL|（必須）|
-|subdomains|<a href='http://leafletjs.com/reference-0.7.7.html#tilelayer'>L.TileLayer</a>と同じ|<a href='http://leafletjs.com/reference-0.7.7.html#tilelayer'>L.TileLayer</a>と同じ|<a href='http://leafletjs.com/reference-0.7.7.html#tilelayer'>L.TileLayer</a>と同じ|
-|attribution|<a href='http://leafletjs.com/reference-0.7.7.html#tilelayer'>L.TileLayer</a>と同じ|<a href='http://leafletjs.com/reference-0.7.7.html#tilelayer'>L.TileLayer</a>と同じ|<a href='http://leafletjs.com/reference-0.7.7.html#tilelayer'>L.TileLayer</a>と同じ|
-|cocotile|true/false|<a href='https://github.com/gsi-cyberjapan/cocotile-spec'>ココタイル</a>を使って表示範囲に絞込みを有効にするかどうか。|true|
-|minZoom|<a href='http://leafletjs.com/reference-0.7.7.html#tilelayer'>L.TileLayer</a>と同じ|<a href='http://leafletjs.com/reference-0.7.7.html#tilelayer'>L.TileLayer</a>と同じ|<a href='http://leafletjs.com/reference-0.7.7.html#tilelayer'>L.TileLayer</a>と同じ|
-|maxZoom|<a href='http://leafletjs.com/reference-0.7.7.html#tilelayer'>L.TileLayer</a>と同じ|<a href='http://leafletjs.com/reference-0.7.7.html#tilelayer'>L.TileLayer</a>と同じ|<a href='http://leafletjs.com/reference-0.7.7.html#tilelayer'>L.TileLayer</a>と同じ|
-|maxNativeZoom|<a href='http://leafletjs.com/reference-0.7.7.html#tilelayer'>L.TileLayer</a>と同じ|<a href='http://leafletjs.com/reference-0.7.7.html#tilelayer'>L.TileLayer</a>と同じ|<a href='http://leafletjs.com/reference-0.7.7.html#tilelayer'>L.TileLayer</a>と同じ|
-|iconUrl|URL|レイヤを表現するアイコンのURL|""|
-|legendUrl|URL|凡例のURL|""|
-|styleurl|URL|ベクトルタイルのstyle.jsを指定する場合に記述。|""|
-|errorTileUrl|<a href='http://leafletjs.com/reference-0.7.7.html#tilelayer'>L.TileLayer</a>と同じ|<a href='http://leafletjs.com/reference-0.7.7.html#tilelayer'>L.TileLayer</a>と同じ|<a href='http://leafletjs.com/reference-0.7.7.html#tilelayer'>L.TileLayer</a>と同じ|
-|bounds|<a href='http://leafletjs.com/reference-0.7.7.html#tilelayer'>L.TileLayer</a>と同じ|<a href='http://leafletjs.com/reference-0.7.7.html#tilelayer'>L.TileLayer</a>と同じ|<a href='http://leafletjs.com/reference-0.7.7.html#tilelayer'>L.TileLayer</a>と同じ|
-|html|文字列|レイヤに関する説明をHTMLで記述。|""|
+|属性名|型|意味|省略可否|デフォルト値|
+|:----|:----|:----|:----|:----|
+|type|Stirng|Layerであることを示す。"Layer"で固定。|不可|N/A|
+|id|Stirng|表示状態の再現に使用。[ココタイル](https://github.com/gsi-cyberjapan/cocotile-spec)に収録。|不可|N/A|
+|title|Stirng|レイヤの名前。レイヤツリーのテキストとして使用。|不可|N/A|
+|url|Stirng|タイルデータのテンプレートURL|不可|N/A|
+|subdomains|[L.TileLayer](https://leafletjs.com/reference-0.7.7.html#tilelayer)と同じ|[L.TileLayer](https://leafletjs.com/reference-0.7.7.html#tilelayer)と同じ|可|[L.TileLayer](https://leafletjs.com/reference-0.7.7.html#tilelayer)と同じ|
+|attribution|[L.TileLayer](https://leafletjs.com/reference-0.7.7.html#tilelayer)と同じ|[L.TileLayer](https://leafletjs.com/reference-0.7.7.html#tilelayer)と同じ|可|[L.TileLayer](https://leafletjs.com/reference-0.7.7.html#tilelayer)と同じ|
+|cocotile|Boolean|[ココタイル](https://github.com/gsi-cyberjapan/cocotile-spec)を使って表示範囲に絞込みを有効にするかどうかを示す。|可|true|
+|minZoom|[L.TileLayer](https://leafletjs.com/reference-0.7.7.html#tilelayer)と同じ|[L.TileLayer](https://leafletjs.com/reference-0.7.7.html#tilelayer)と同じ|可|[L.TileLayer](https://leafletjs.com/reference-0.7.7.html#tilelayer)と同じ|
+|maxZoom|[L.TileLayer](https://leafletjs.com/reference-0.7.7.html#tilelayer)と同じ|[L.TileLayer](https://leafletjs.com/reference-0.7.7.html#tilelayer)と同じ|可|[L.TileLayer](https://leafletjs.com/reference-0.7.7.html#tilelayer)と同じ|
+|maxNativeZoom|[L.TileLayer](https://leafletjs.com/reference-0.7.7.html#tilelayer)と同じ|[L.TileLayer](https://leafletjs.com/reference-0.7.7.html#tilelayer)と同じ|可|[L.TileLayer](https://leafletjs.com/reference-0.7.7.html#tilelayer)と同じ|
+|iconUrl|Stirng|レイヤを表現するアイコンのURL|可|""|
+|legendUrl|Stirng|凡例のURL|可|""|
+|styleurl|Stirng|ベクトルタイルのstyle.jsを指定する場合のURL|可|""|
+|errorTileUrl|[L.TileLayer](https://leafletjs.com/reference-0.7.7.html#tilelayer)と同じ|[L.TileLayer](https://leafletjs.com/reference-0.7.7.html#tilelayer)と同じ|可|[L.TileLayer](https://leafletjs.com/reference-0.7.7.html#tilelayer)と同じ|
+|bounds|[L.TileLayer](https://leafletjs.com/reference-0.7.7.html#tilelayer)と同じ|[L.TileLayer](https://leafletjs.com/reference-0.7.7.html#tilelayer)と同じ|可|[L.TileLayer](https://leafletjs.com/reference-0.7.7.html#tilelayer)と同じ|
+|area|Object |レイヤを代表する表示位置。Objectは{"lat" : number, "lng" : number, "zoom" : integer}の形で記述し、それぞれ緯度（10進法）、経度（10進法）、ズームレベルを指定する。|可|N/A|
+|html|Stirng|レイヤに関する説明をHTMLで記述。|可|""|
 
 ### LayerGroup
 下位のレイヤを取りまとめたレイヤグループを構成するプロパティの集合。
 
-|属性名|属性値|意味|デフォルト|
-|:----|:----|:--|:-------|
-|type|LayerGroup|LayerGroupであることを示す。|（必須）|
-|id|文字列|LayerGroupを1つのレイヤとして扱う場合に記述|（必須）|
-|title|文字列|レイヤグループの名前。レイヤツリーのテキストとして使用。|（必須）|
-|toggleall|true/false|下位レイヤ群を「全表示」「全非表示」するボタンを表示するかどうか。|false|
-|entries|Layer 及び LayerGroupの配列|下位にあるLayer 及び LayerGroup群|[]<br>（entries属性かsrc属性のいずれかが必須）|
-|src|URL|entriesの配列の内容が存在するlayers.txtのURL|""<br>（entries属性かsrc属性のいずれかが必須）|
-|iconUrl|URL|レイヤグループを表現するアイコンのURL|""|
-|legendUrl|URL|凡例等のURL|""|
-|html|文字列|レイヤグループに関する説明をHTMLで記述。|""|
+|属性名|型|意味|省略可否|デフォルト値|
+|:----|:----|:----|:----|:----|
+|type|Stirng|LayerGroupであることを示す。"LayerGroup"で固定。|不可|N/A|
+|id|Stirng|表示状態の再現に使用。ココタイルに収録。LayerGroupを1つのレイヤとして扱う場合に記述。|可 ※|N/A|
+|title|Stirng|レイヤグループの名前。レイヤツリーのテキストとして使用。|不可|N/A|
+|toggleall|Boolean|下位レイヤ群を「全表示」「全非表示」するボタンを表示するかどうかを示す。|可|false|
+|entries|Array|下位にあるLayerまたはLayerGroup群|entries属性かsrc属性の<br>いずれかを省略可|[]|
+|src|Stirng|entriesの配列の内容が存在するlayers.txtのURL|entries属性かsrc属性の<br>いずれかを省略可|""|
+|iconUrl|String|レイヤグループを表現するアイコンのURL|可|""|
+|legendUrl|Stirng|凡例等のURL|可|""|
+|html|String|レイヤグループに関する説明をHTMLで記述。|可|""|
+
+※ LayerGroup配下のLayerをまとめて1つのレイヤのように表示させたい場合、id属性を記述する。
 
 
 ## 参考文献
-1. Leaflet リファレンス http://leafletjs.com/reference-0.7.7.html
+1. Leaflet リファレンス https://leafletjs.com/reference-0.7.7.html
