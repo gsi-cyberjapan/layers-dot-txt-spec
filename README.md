@@ -14,3 +14,4 @@ layers-dot-txt-spec
 |2016-03-31|[ウェブ地図レイヤ定義 layers.txt 規約](specifications.md) を更新。<ul><li>`errorTileUrl`属性を追加。</li></ul>|
 |2017-03-07|[ウェブ地図レイヤ定義 layers.txt 規約](specifications.md) を更新。<ul><li>`bounds`属性、`styleurl`属性、LayerGroupの`id`属性を追加。</li></ul>|
 |2020-10-09|[ウェブ地図レイヤ定義 layers.txt 規約](specifications.md) を更新。<ul><li>「型」列及び「省略可否」列を追加し、「属性値」列を削除。</li><li>`area`属性を追加。</li><li>その他軽微な更新</li></ul>|
+|2025-07-23|[ウェブ地図レイヤ定義 layers.txt 規約](specifications.md) を更新。<ul><li>`tileSize`属性を追加。</li><li>参考文献を更新</li></ul>|
